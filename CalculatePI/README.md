@@ -11,13 +11,17 @@
 
 ### 文件索引
 
- - [demo.py][2]（马青公式简单示例）
+ - [demo.py][2]（马青公式的简单实现）
+ - [outpi.py][3]（圆周率自动计算器）
+ - [pi.txt][4]（PI的一百万位）
 
 
 ### 参考博客
-[【赖德发的博客】python计算圆周率π的值到任意位][3]
+[【赖德发的博客】python计算圆周率π的值到任意位][5]
 
 
   [1]: https://gss0.bdstatic.com/94o3dSag_xI4khGkpoWK1HF6hhy/baike/c0=baike80,5,5,80,26/sign=f389fb020a4f78f0940692a118586130/e850352ac65c10385b27ab94bb119313b07e890e.jpg
   [2]: https://github.com/scriptgeeker/python-demo/blob/master/CalculatePI/demo.py
-  [3]: https://blog.csdn.net/u013421629/article/details/72640062
+  [3]: https://github.com/scriptgeeker/python-demo/blob/master/CalculatePI/outpi.py
+  [4]: https://github.com/scriptgeeker/python-demo/blob/master/CalculatePI/pi.txt
+  [5]: https://blog.csdn.net/u013421629/article/details/72640062
