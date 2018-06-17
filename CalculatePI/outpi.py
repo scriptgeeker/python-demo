@@ -48,7 +48,7 @@ def savepi(num, file):
 
 if __name__ == '__main__':
     i = 0  # 全局变量
-    num = 10 ** 2  # 计算精度100万位
+    num = 10 ** 6  # 计算精度100万位
     file = 'pi.txt'  # 计算结果保存到文件
     ts = threading.Thread(target=savepi, args=(num, file))
     tc = threading.Thread(target=conlog, args=(num,))
