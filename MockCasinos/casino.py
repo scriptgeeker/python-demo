@@ -34,7 +34,7 @@ class Casino(object):
         print('闲家{0:}押【{1:}】'.format(player, bet[bet_p]))
         sic1, sic2, sic3 = randint(1, 6), randint(1, 6), randint(1, 6)
         result = sic1 + sic2 + sic3
-        print('{0:}+{1:}+{2:}={3:} 结果为【{4:}】'.format(sic1, sic2, sic3, result, bet[(result - 1) // 9]))
+        print('色子点数：{0:}+{1:}+{2:}={3:}'.format(sic1, sic2, sic3, result))
         if (result > 9 and bet_r == 1) or (result <= 9 and bet_r == 0):
             ranker, player = player, -player
         else:
