@@ -20,7 +20,7 @@
 [【赖德发的博客】python计算圆周率π的值到任意位][5]
 
 
-  [1]: https://github.com/scriptgeeker/python-demo/blob/master/CalculatePI/__CDN__/Machin-formula.png
+  [1]: https://raw.githubusercontent.com/scriptgeeker/python-demo/master/__CDN__/Machin-formula.png
   [2]: https://github.com/scriptgeeker/python-demo/blob/master/CalculatePI/demo.py
   [3]: https://github.com/scriptgeeker/python-demo/blob/master/CalculatePI/outpi.py
   [4]: https://github.com/scriptgeeker/python-demo/blob/master/CalculatePI/pi.txt
