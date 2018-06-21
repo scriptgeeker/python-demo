@@ -31,14 +31,21 @@
  - [demo.py][2]（进行游戏博弈 - Start a mock Casino）
  - [gamble.py][3]（计算获胜概率 - Calculation probability）
 
+### 问题结论
+
+
+赌资大小决定胜率
+
+
 ### 参考链接
 [【七月在线实验室】一夜暴富还是倾家荡产？Python模拟赌博实验][4]
+[【维基百科 Wikipedia】赌徒的毁灭 - Gambler's ruin][5]
 
-
-**最后啰嗦一句: 珍惜生命,远离赌博**
+**最后啰嗦一句：珍爱生活，远离赌博**
 
 
   [1]: https://github.com/scriptgeeker/python-demo/blob/master/MockCasinos/casino.py
   [2]: https://github.com/scriptgeeker/python-demo/blob/master/MockCasinos/demo.py
   [3]: https://github.com/scriptgeeker/python-demo/blob/master/MockCasinos/gamble.py
   [4]: https://blog.csdn.net/T7SFOKzorD1JAYMSFk4/article/details/79989949
+  [5]: https://en.wikipedia.org/wiki/Gambler%27s_ruin

@@ -11,9 +11,9 @@
 
 ### 文件索引
 
- - [demo.py][2]（马青公式的简单实现）
- - [outpi.py][3]（圆周率自动计算器）
- - [pi.txt][4]（PI的一百万位）
+ - [demo.py][2]（核心算法实现 - Realization of Machin formula）
+ - [outpi.py][3]（圆周率计算器 - Circumference calculator）
+ - [pi.txt][4]（PI的一百万位 - One million bits of PI）
 
 
 ### 参考博客
