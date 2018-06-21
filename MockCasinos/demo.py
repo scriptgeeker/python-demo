@@ -1,7 +1,7 @@
 try:
-    exec('from casino import Casino')
-except:
     from .casino import Casino
+except:
+    exec('from casino import Casino')
 
 if __name__ == '__main__':
     jackpot = 10000 * 10000  # 庄家初始资金
