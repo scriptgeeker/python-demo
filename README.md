@@ -12,10 +12,12 @@ Python programming practice
 
 > 既然赌博每局的胜率为50%，为何最终有那么多人会赌到倾家荡产？
 
-## 3. 文件加密
-File encryption and decryption
+## 3. Base64
+[Base64 from binary to character][3]
 
-> 运用AES对称加密，实现文件的加密与解密
+> 模拟从二进制到字符的编码过程，封装Base64编解码工具
+
 
   [1]: https://github.com/scriptgeeker/python-demo/tree/master/CalculatePI
   [2]: https://github.com/scriptgeeker/python-demo/tree/master/MockCasinos
+  [3]: https://github.com/scriptgeeker/python-demo/tree/master/BaseCode
