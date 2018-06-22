@@ -12,7 +12,7 @@ Python programming practice
 
 > 既然赌博每局的胜率为50%，为何最终有那么多人会赌到倾家荡产？
 
-## 3. Base64
+## 3. 字节码编码
 [Base64 from binary to character][3]
 
 > 模拟从二进制到字符的编码过程，封装Base64编解码工具
