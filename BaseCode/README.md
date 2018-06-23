@@ -12,8 +12,10 @@ Base64编码会把3字节的二进制数据编码为4字节的文本数据。
 
 ### 文件索引
 
- - [demo.py][2]（内建模块的使用 - Use of built-in modules）
+ - [demo1.py][2]（内建模块的使用 - Use of built-in modules）
  - [mybase.py][3]（编码过程的实现 - Coding implementation）
+ - BaseUtil.py（封装base64模块 - Encapsulate the module）
+ - demo2.py（使用BaseUtil类 - Use the BaseUtil class）
 
 ### 参考博客
 [【廖雪峰的官方网站】Python内建模块 Base64][4]
