@@ -1,5 +1,5 @@
 '''
-base64编解码原理
+Base64编码和解码的实现
 The principle of Base64 codec
 '''
 
@@ -65,7 +65,7 @@ def decode(_base: bytes):
 if __name__ == '__main__':
     import base64
 
-    _bytes = '自定义Base64编码和解码'.encode()
+    _bytes = 'Base64编码用于传输8Bit字节代码'.encode()
     base_1 = base64.b64encode(_bytes)
     base_2 = encode(_bytes)
     print('Encode Correct:', base_1 == base_2)
