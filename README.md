@@ -17,7 +17,13 @@ Python programming practice
 
 > 模拟从二进制到字符的编码过程，封装Base64编解码工具
 
+## 4. 文件加密
+[Advanced Encryption Standard][4]
+
+> 使用AES-CBC模式对文件进行加密和解密
+
 
   [1]: https://github.com/scriptgeeker/python-demo/tree/master/CalculatePI
   [2]: https://github.com/scriptgeeker/python-demo/tree/master/MockCasinos
   [3]: https://github.com/scriptgeeker/python-demo/tree/master/BaseCode
+  [4]: https://github.com/scriptgeeker/python-demo/tree/master/FileEncrypt
