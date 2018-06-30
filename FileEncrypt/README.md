@@ -22,13 +22,16 @@ pip install pycryptodome    # 加密算法模块
 
 ### 文件索引
 
- - [demo.py][1]（AES-CBC加密示范 - Encryption module demo）
+ - [demo.py][1]（AES模块使用示范 - Encryption module demo）
+ - [cryptor.py][2]（AES-CBC Encryption and decryption tools）
 
 ### 参考博客
-[【CSDN melody_sy】python3.6 实现AES加密][2]
-[【CSDN charleslei】高级加密标准AES的工作模式][3]
+[【CSDN melody_sy】python3.6 实现AES加密][3]
+
+[【CSDN charleslei】高级加密标准AES的工作模式][4]
 
 
   [1]: https://github.com/scriptgeeker/python-demo/blob/master/FileEncrypt/demo.py
-  [2]: https://blog.csdn.net/s740556472/article/details/78778522
-  [3]: https://blog.csdn.net/charleslei/article/details/48710293
+  [2]: https://github.com/scriptgeeker/python-demo/blob/master/FileEncrypt/cryptor.py
+  [3]: https://blog.csdn.net/s740556472/article/details/78778522
+  [4]: https://blog.csdn.net/charleslei/article/details/48710293
