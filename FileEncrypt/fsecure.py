@@ -15,7 +15,10 @@ class FileSecure():
     # 根据文件名计算密钥
     def __getKey(self, filepath):
         filename = os.path.basename(filepath)
-        tmpstr = filename[:filename.index('.')] + self.__salt
+        suffix = '.' + self.__suffix
+        if filename[-len(suffix):] == suffix:
+            filename = filename[:-len(suffix)]
+        tmpstr = filename + self.__salt
         # 加盐后的文件名进行HASH加密
         md5, sha1 = hashlib.md5(), hashlib.sha1()
         md5.update(tmpstr.encode('utf8'))
