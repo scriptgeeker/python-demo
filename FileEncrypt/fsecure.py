@@ -5,30 +5,27 @@ from binascii import b2a_base64, a2b_base64
 
 
 class FileSecure():
-    RE, EN, DE = 0, 1, 2  # 互换，加密，解密
+    RE, EN, DE = 0, 1, 2  # replace, encrypt, decrypt
 
     def __init__(self, suffix='oaa', maxsize=10):
-        self.__salt = 'one-above-all'  # 密码盐
-        self.__suffix = suffix  # 加密文件后缀
-        self.__maxsize = maxsize * 1024 ** 2  # 文件大小限制 MB
+        self.__salt = 'one-above-all'  # Cipher salt
+        self.__suffix = suffix  # Encrypted file suffix
+        self.__maxsize = maxsize * 1024 ** 2  # File size limit MB
 
-    # 根据文件名计算密钥
+    # get key from the file name
     def __getKey(self, filepath):
         filename = os.path.basename(filepath)
         suffix = '.' + self.__suffix
         if filename[-len(suffix):] == suffix:
             filename = filename[:-len(suffix)]
         tmpstr = filename + self.__salt
-        # 加盐后的文件名进行HASH加密
         md5, sha1 = hashlib.md5(), hashlib.sha1()
         md5.update(tmpstr.encode('utf8'))
         sha1.update(md5.hexdigest().encode())
-        # 经过MD5和SHA1加密后取出前16位作为密钥
         return sha1.hexdigest().upper()[:16].encode()
 
     # AES-CBC Encrypt
     def __encrypt(self, text, key):
-        # 保证加密对象长度为16的倍数
         if len(text) % 16 != 0:
             text += (16 - len(text) % 16) * b'\x00'
         aes = AES.new(key, AES.MODE_CBC, key)
@@ -38,7 +35,6 @@ class FileSecure():
     def __decrypt(self, ciphertext, key):
         aes = AES.new(key, AES.MODE_CBC, key)
         text = aes.decrypt(ciphertext)
-        # 去除添加的额外空字节
         return text.strip(b'\x00')
 
     # File Secure Encrypt
