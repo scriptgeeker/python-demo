@@ -22,8 +22,14 @@ Python programming practice
 
 > 使用AES-CBC模式对文件进行加密和解密
 
+## 5. 绘制图表
+[Drawing charts with ChartJS][5]
+
+> 利用开源的HTML5工具，绘制Canvas图表
+
 
   [1]: https://github.com/scriptgeeker/python-demo/tree/master/CalculatePI
   [2]: https://github.com/scriptgeeker/python-demo/tree/master/MockCasinos
   [3]: https://github.com/scriptgeeker/python-demo/tree/master/BaseCode
   [4]: https://github.com/scriptgeeker/python-demo/tree/master/FileEncrypt
+  [5]: https://github.com/scriptgeeker/python-demo/tree/master/ChartBuild
