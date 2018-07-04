@@ -5,7 +5,7 @@
 ----------
 
 ### 图表效果
-
+![bar chart demo][1]
 ```
 var ctx = document.getElementById("myChart");
 var chartInstanc = new Chart(ctx, {
@@ -29,17 +29,18 @@ var chartInstanc = new Chart(ctx, {
 
 > Simple HTML5 Charts using the canvas element chartjs.org
 
-GitHub:  https://github.com/chartjs/Chart.js
-CSDN:    https://cdnjs.com/libraries/Chart.js
-Doc:     http://www.chartjs.org/docs/latest/
-
+ - GitHub:  https://github.com/chartjs/Chart.js
+ - CSDN:    https://cdnjs.com/libraries/Chart.js
+ - Doc:     http://www.chartjs.org/docs/latest/
 
 ### 文件索引
 
- - demo.html（chart.js使用示范 - Chart.js use demonstration）
+ - [demo.html][2]（chart.js使用示范 - Chart.js use demonstration）
 
 ### 参考博客
-[【segmentfault farmerz】chart.js 文档翻译][1]
+[【segmentfault farmerz】chart.js 文档翻译][3]
 
 
-  [1]: https://segmentfault.com/a/1190000008498664
+  [1]: https://raw.githubusercontent.com/scriptgeeker/python-demo/master/__CDN__/Creating-Chart.png
+  [2]: https://github.com/scriptgeeker/python-demo/blob/master/ChartBuild/demo.html
+  [3]: https://segmentfault.com/a/1190000008498664
