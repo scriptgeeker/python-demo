@@ -4,30 +4,10 @@
 
 ----------
 
-### 图表效果
-![bar chart demo][1]
-```
-var ctx = document.getElementById("myChart");
-var chartInstanc = new Chart(ctx, {
-    type: "bar",
-    data: {
-        labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
-        datasets: [{
-            label: "lable",
-            data: [12, 19, 3, 5, 2, 3]
-        }]
-    },
-    options: {
-        scales: {
-            yAxes: [{ticks: {beginAtZero: true}}]
-        },
-    }
-});
-```
-
-### 前端工具
-
+### 图表工具
 > Simple HTML5 Charts using the canvas element chartjs.org
+
+![chart.js][1]
 
  - github:  https://github.com/chartjs/Chart.js
  - cdnjs:   https://cdnjs.com/libraries/Chart.js
