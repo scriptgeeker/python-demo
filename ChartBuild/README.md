@@ -29,9 +29,9 @@ var chartInstanc = new Chart(ctx, {
 
 > Simple HTML5 Charts using the canvas element chartjs.org
 
- - GitHub:  https://github.com/chartjs/Chart.js
- - CSDN:    https://cdnjs.com/libraries/Chart.js
- - Doc:     http://www.chartjs.org/docs/latest/
+ - github:  https://github.com/chartjs/Chart.js
+ - cdnjs:   https://cdnjs.com/libraries/Chart.js
+ - docs:    http://www.chartjs.org/docs/latest/
 
 ### 文件索引
 
