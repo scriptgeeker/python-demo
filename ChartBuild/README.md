@@ -31,20 +31,19 @@
 网易：2493
 美团：2000
 ```
-
-![互联网公司市值条形图][2]
+[互联网公司市值条形图 Market-value-of-Internet.html][2]
 
 ### 文件索引
 
  - [demo.html][3]（chart.js使用示范 - Chart.js use demonstration）
- - [chart.py][4]（数据图表构造器 - Data graph constructor）
+ - [chart.py][4] (数据图表构造器 - Data graph constructor)
 
 ### 参考博客
 [【segmentfault farmerz】chart.js 文档翻译][5]
 
 
   [1]: https://raw.githubusercontent.com/scriptgeeker/python-demo/master/__CDN__/Creating-Chart.png
-  [2]: https://raw.githubusercontent.com/scriptgeeker/python-demo/master/__CDN__/Market-Internet%20.png
+  [2]: https://scriptgeeker.github.io/html-page/chart/Market-value-of-Internet.html
   [3]: https://github.com/scriptgeeker/python-demo/blob/master/ChartBuild/demo.html
   [4]: https://github.com/scriptgeeker/python-demo/blob/master/ChartBuild/chart.py
   [5]: https://segmentfault.com/a/1190000008498664
