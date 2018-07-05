@@ -32,18 +32,19 @@
 美团：2000
 ```
 
-互联网公司市值条形图
+![互联网公司市值条形图][2]
 
 ### 文件索引
 
- - [demo.html][2]（chart.js使用示范 - Chart.js use demonstration）
- - [chart.py][3] (数据图表构造器 - Data graph constructor)
+ - [demo.html][3]（chart.js使用示范 - Chart.js use demonstration）
+ - [chart.py][4]（数据图表构造器 - Data graph constructor）
 
 ### 参考博客
-[【segmentfault farmerz】chart.js 文档翻译][4]
+[【segmentfault farmerz】chart.js 文档翻译][5]
 
 
   [1]: https://raw.githubusercontent.com/scriptgeeker/python-demo/master/__CDN__/Creating-Chart.png
-  [2]: https://github.com/scriptgeeker/python-demo/blob/master/ChartBuild/demo.html
-  [3]: https://github.com/scriptgeeker/python-demo/blob/master/ChartBuild/chart.py
-  [4]: https://segmentfault.com/a/1190000008498664
+  [2]: https://raw.githubusercontent.com/scriptgeeker/python-demo/master/__CDN__/Market-Internet%20.png
+  [3]: https://github.com/scriptgeeker/python-demo/blob/master/ChartBuild/demo.html
+  [4]: https://github.com/scriptgeeker/python-demo/blob/master/ChartBuild/chart.py
+  [5]: https://segmentfault.com/a/1190000008498664
