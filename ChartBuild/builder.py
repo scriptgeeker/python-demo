@@ -87,9 +87,12 @@ class ChartBuilder():
 
 
 if __name__ == '__main__':
+    library = 'https://cdn.bootcss.com/Chart.js/2.7.2/Chart.js'
     data = {"Red": 15, "Blue": 24, "Yellow": 12, "Green": 6, "Purple": 9, "Orange": 3}
     color = ['rgba(255, 99, 132, 0.6)', 'rgba(54, 162, 235, 0.6)', 'rgba(255, 206, 86, 0.6)',
              'rgba(75, 192, 192, 0.6)', 'rgba(153, 102, 255, 0.6)', 'rgba(255, 159, 64, 0.6)']
+
     builder = ChartBuilder(title='颜色', type=ChartBuilder.BAR, data=data)
-    builder.setColor(color=color)
+    builder.setLibrary(library=library)  # Non-essential
+    builder.setColor(color=color)  # Non-essential
     builder.show()
