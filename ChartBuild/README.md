@@ -36,14 +36,16 @@
 ### 文件索引
 
  - [demo.html][3]（chart.js使用示范 - Chart.js use demonstration）
- - [chart.py][4] (数据图表构造器 - Data graph constructor)
+ - [chart.py][4]（数据自动填充 - Automatic data filling）
+ - [builder.py][5]（简单图表构造器 - Simple chart builder）
 
 ### 参考博客
-[【segmentfault farmerz】chart.js 文档翻译][5]
+[【segmentfault farmerz】chart.js 文档翻译][6]
 
 
   [1]: https://raw.githubusercontent.com/scriptgeeker/python-demo/master/__CDN__/Creating-Chart.png
   [2]: https://scriptgeeker.github.io/html-page/chart/Market-value-of-Internet.html
   [3]: https://github.com/scriptgeeker/python-demo/blob/master/ChartBuild/demo.html
   [4]: https://github.com/scriptgeeker/python-demo/blob/master/ChartBuild/chart.py
-  [5]: https://segmentfault.com/a/1190000008498664
+  [5]: https://github.com/scriptgeeker/python-demo/blob/master/ChartBuild/builder.py
+  [6]: https://segmentfault.com/a/1190000008498664
