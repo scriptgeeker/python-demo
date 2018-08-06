@@ -27,9 +27,15 @@ Python programming practice
 
 > 利用开源的HTML5工具，绘制Canvas图表
 
+## 6. 百科爬虫
+[Baidu Encyclopedia Data Retrieval][6]
+
+> 让爬虫在词条关系网中收集数据
+
 
   [1]: https://github.com/scriptgeeker/python-demo/tree/master/CalculatePI
   [2]: https://github.com/scriptgeeker/python-demo/tree/master/MockCasinos
   [3]: https://github.com/scriptgeeker/python-demo/tree/master/BaseCode
   [4]: https://github.com/scriptgeeker/python-demo/tree/master/FileEncrypt
   [5]: https://github.com/scriptgeeker/python-demo/tree/master/ChartBuild
+  [6]: https://github.com/scriptgeeker/python-demo/tree/master/Crawlers/Baike
